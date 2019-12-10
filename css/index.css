@@ -82,6 +82,7 @@ pre {
   padding: 1em;
   margin: .5em 0;
   background-color: #f6f6f6;
+  max-width: 37.5em;
 }
 .highlight-line {
   display: block;
