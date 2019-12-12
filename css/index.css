@@ -18,11 +18,6 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 p,
-.tmpl-post li,
-img {
-  max-width: 37.5em; /* 600px /16 */
-}
-p,
 .tmpl-post li {
   line-height: 1.6;
 }
@@ -33,10 +28,8 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 1rem;
-}
-main :first-child {
-  margin-top: 0;
+  padding-left: 1rem;
+  max-width: 30rem;
 }
 
 header {
@@ -78,7 +71,6 @@ pre {
   hyphens: none;
   padding: 1em;
   margin: .5em 0;
-  max-width: 37.5em;
   border-style: solid;
   border-width: 1px;
 }
@@ -113,17 +105,6 @@ pre {
   background-color: #902f2f;
 }
 
-/* Header */
-.home {
-  padding: 0 1rem;
-  float: left;
-  margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
-}
-.home :link:hover {
-  text-decoration: none;
-}
-
 /* Posts list */
 .postlist {
   list-style: none;
@@ -139,7 +120,7 @@ pre {
 
 .postlist-link {
   display: inline-block;
-  padding: 0.25em 0.1875em; /* 4px 3px /16 */
+  margin-bottom: 0.5rem;
 }
 .postlist-item-active .postlist-link {
   font-weight: bold;
