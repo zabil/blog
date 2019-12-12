@@ -43,8 +43,10 @@ main {
 main :first-child {
   margin-top: 0;
 }
+
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  padding-left: 1rem;
+
 }
 header:after {
   content: "";
@@ -122,7 +124,7 @@ pre {
   margin: 1rem 0; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
 }
-.home :link:not(:hover) {
+.home :link:hover {
   text-decoration: none;
 }
 
@@ -137,18 +139,21 @@ pre {
   display: inline-block;
   margin-right: 1em;
 }
-.nav-item a[href]:not(:hover) {
+.nav-item a[href]:hover {
   text-decoration: none;
 }
 .nav-item-active {
   font-weight: 700;
-  text-decoration: underline;
+}
+.nav-item a[href] {
+  text-decoration: none;
 }
 
 /* Posts list */
 .postlist {
   list-style: none;
   padding: 0;
+  -webkit-padding-start: 0;
 }
 .postlist-item:before {
   display: inline-block;
