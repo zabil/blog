@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
 :root {
   --red: #C5004A;
   --darkred: #7F0036;
@@ -15,7 +17,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Inconsolata', monospace;
   color: var(--darkgray);
   background-color: var(--white);
 }
@@ -150,13 +152,9 @@ pre {
   list-style: none;
   padding: 0;
 }
-.postlist-item {
-  counter-increment: start-from -1;
-}
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
-  content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
 }
@@ -175,11 +173,6 @@ pre {
 .postlist-item-active .postlist-link {
   font-weight: bold;
 }
-.tmpl-home .postlist-link {
-  font-size: 1.1875em; /* 19px /16 */
-  font-weight: 700;
-}
-
 
 /* Tags */
 .tag {
