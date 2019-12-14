@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 :root {
   --red: #C5004A;
@@ -15,12 +15,16 @@
 }
 html,
 body {
-  font-family: 'Inconsolata', monospace;
-  font-size: 1.1em;
+  font-family: 'Ubuntu', sans-serif;
 }
 p,
 .tmpl-post li {
   line-height: 1.6;
+}
+blockquote{
+  font-style:italic;
+  padding-left:1em;
+  border-left:5px solid grey ;
 }
 a[href] {
   color: var(--blue);
@@ -30,7 +34,7 @@ a[href]:visited {
 }
 main {
   padding-left: 1rem;
-  max-width: 30rem;
+  max-width: 35rem;
 }
 
 header {
@@ -106,25 +110,12 @@ pre {
   background-color: #902f2f;
 }
 
-/* Posts list */
-.postlist {
-  list-style: none;
-  padding: 0;
-  -webkit-padding-start: 0;
-}
-.postlist-item:before {
-  display: inline-block;
-  pointer-events: none;
-  line-height: 100%;
-  text-align: right;
+section.post, h4 {
+  margin-bottom:5px;
 }
 
-.postlist-link {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-}
-.postlist-item-active .postlist-link {
-  font-weight: bold;
+section.post, p {
+  margin:0;
 }
 
 /* Warning */
