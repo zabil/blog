@@ -4,6 +4,9 @@ description: The story behind a new kind of testing framework.
 date: 2018-12-14
 layout: layouts/post.njk
 ---
+
+<link rel="canonical" href="https://blog.getgauge.io/why-we-built-gauge-6e31bb4848cd" />
+
 At [ThoughtWorks](//thoughtworks.com) we place a high value on test automation. We’ve built a lot of testing tools. We [talk and write](https://www.thoughtworks.com/insights/software-testing) about how important testing is. And that’s because our teams rely on tests to quickly detect and fix problems in every stage of the build pipeline. But the truth is, it’s tough to maintain or debug tests, especially functional tests despite following the [test pyramid](https://martinfowler.com/bliki/TestPyramid.html).
 
 ## The importance of readable and reusable tests
@@ -336,5 +339,6 @@ No. Gauge is built for testing. BDD tools like Cucumber, on the other hand, are 
 ## Looking forward
 
 We know Gauge solves real problems with test maintenance because we have a growing community of early adopters who took the risk of using a beta product on their build pipelines. They’ve given us valuable feedback, pull requests, encouragement and have recommended Gauge to their colleagues.
+
 
 With the 1.0 stable out we’d like to thank them for supporting our ideas and approach. We hope you’ll find it as useful as we do for writing clean and maintainable acceptance tests!
