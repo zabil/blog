@@ -133,7 +133,6 @@ Instead of cobbling jars/modules/gems/pips, creating directory layouts, writing 
 
 ```
 $ gauge init js # or csharp, java, python, ruby
-
 ```
 
 to set up a sample JavaScript test project. To help you quick-start projects we’ve set up templates for all popular languages and tools. Teams can also create and share templates to bootstrap custom projects.
@@ -339,6 +338,5 @@ No. Gauge is built for testing. BDD tools like Cucumber, on the other hand, are 
 ## Looking forward
 
 We know Gauge solves real problems with test maintenance because we have a growing community of early adopters who took the risk of using a beta product on their build pipelines. They’ve given us valuable feedback, pull requests, encouragement and have recommended Gauge to their colleagues.
-
 
 With the 1.0 stable out we’d like to thank them for supporting our ideas and approach. We hope you’ll find it as useful as we do for writing clean and maintainable acceptance tests!
