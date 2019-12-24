@@ -12,11 +12,8 @@
 </head>
 
 <body>
-  <header>
-    <p><a href="{{ '/' | url }}">←</a></p>
-  </header>
   <main{% if templateClass %} class="{{ templateClass }}" {% endif %}>
-    <p> Zabil, Product Manager <a href="//gauge.org">Gauge</a>
+    <p><a href="{{ '/' | url }}">Zabil</a>, Product Manager <a href="//gauge.org">Gauge</a>
     and <a href="//gauge.org">Taiko</a></p>
 
     {{ content | safe }}
