@@ -16,7 +16,7 @@
 html,
 body {
   font-family: Sans-Serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 p,
 .tmpl-post li {
@@ -52,7 +52,7 @@ code {
   line-height: 1.5;
 }
 pre {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.375;
   direction: ltr;
   text-align: left;
