@@ -15,7 +15,8 @@
 
 html,
 body {
-  font-family: Sans-Serif;
+  font-family: Courier;
+  font-size: small;
 }
 
 p,
@@ -38,7 +39,7 @@ a[href]:visited {
 }
 
 main {
-  max-width: 37.5rem;
+  max-width: 40rem;
   padding:2rem;
 }
 
@@ -53,7 +54,6 @@ table th {
 
 pre,
 code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   line-height: 1.5;
   white-space: pre-wrap;
 }
@@ -73,6 +73,7 @@ pre {
   -ms-hyphens: none;
   hyphens: none;
   padding: 1em;
+  border: solid 1px lightgrey;
 }
 
 .highlight-line {
