@@ -13,13 +13,14 @@
 
 <body>
   <main{% if templateClass %} class="{{ templateClass }}" {% endif %}>
-    <p><a href="{{ '/' | url }}">Zabil's</a> personal blog</p>
-    {{ content | safe }}
+    <p>
+      <a href="{{ '/' | url }}">Home</a>
+    </p>
+   {{ content | safe }}
     </main>
 
     <footer></footer>
 
-    <!-- Current page: {{ page.url | url }} -->
 </body>
 
 </html>

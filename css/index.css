@@ -122,6 +122,10 @@ section.post p {
   margin: 0;
 }
 
+section.post p:last-child {
+  margin-bottom: 15px;
+}
+
 /* Warning */
 .warning {
   background-color: #ffc;
@@ -151,4 +155,9 @@ a[href].direct-link:focus:visited,
 :hover>a[href].direct-link,
 :hover>a[href].direct-link:visited {
   color: #aaa;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 10%;
 }

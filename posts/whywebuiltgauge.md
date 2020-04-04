@@ -1,6 +1,6 @@
 ---
 title: Why we built Gauge.
-description: The story behind a new kind of testing framework.
+description: A test automation framework you'll actually like.
 date: 2018-12-14
 layout: layouts/post.njk
 ---
@@ -18,7 +18,7 @@ void test() {
  // Invoke commands
  driver.get("google.com");
  // Use locators/xpath
- WebElement element = 
+ WebElement element =
  	driver.findElement(By.name("q"));
  // Provide data
  element.sendKeys("testing frameworks");
@@ -28,9 +28,9 @@ void test() {
 A test like this is verbose and not reusable by another test. That is until we move a few lines to a method, pass the search text as a parameter and call that method. For example
 
 ```
-void google(String query) { 
+void google(String query) {
  driver.get("google.com");
- WebElement element = 
+ WebElement element =
  	driver.findElement(By.name("q"));
  element.sendKeys(query);
  element.submit();
@@ -58,7 +58,7 @@ class GoogleHomePage {
   this.driver = driver;
  }
  void searchFor(String query) {
-  WebElement element = 
+  WebElement element =
   	driver.findElement(By.name("q"));
   element.sendKeys("testing frameworks");
   element.submit();
@@ -230,7 +230,7 @@ We can reuse this step in another scenario, let’s say searching for Oscar winn
 ## Search for blockbusters
 * Search for theaters playing "Avengers" in "Bangalore"
 ## Search 2017 Oscar winners
-* Search for theaters playing "The shape of water" in 
+* Search for theaters playing "The shape of water" in
   "Bangalore"
 ```
 
