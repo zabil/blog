@@ -1,24 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-:root {
-  --red: #C5004A;
-  --darkred: #7F0036;
-  --lightgray: #e0e0e0;
-  --gray: #C0C0C0;
-  --darkgray: #333;
-  --navy: #17050F;
-  --blue: #082840;
-  --white: #fff;
-}
-
 * {
   box-sizing: border-box;
-}
-
-html,
-body {
-  font-family: 'Source Code Pro', monospace;
-  font-size: small;
 }
 
 p,
@@ -41,8 +24,8 @@ a[href]:visited {
 }
 
 main {
-  max-width: 40rem;
-  padding:2rem;
+  max-width: 500px;
+  padding: 15px;
 }
 
 table {

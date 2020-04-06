@@ -13,10 +13,7 @@
 
 <body>
   <main{% if templateClass %} class="{{ templateClass }}" {% endif %}>
-    <p>
-      <a href="{{ '/' | url }}">Home</a>
-    </p>
-   {{ content | safe }}
+  {{ content | safe }}
     </main>
 
     <footer></footer>
