@@ -1,5 +1,5 @@
 ---
-title: Why we built Gauge.
+title: Why we built Gauge
 description: A test automation framework you'll actually like.
 date: 2018-12-14
 layout: layouts/post.njk

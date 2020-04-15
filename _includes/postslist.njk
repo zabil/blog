@@ -1,9 +1,8 @@
   {% for post in postslist | reverse %}
   <section class="post">
-  <h4 class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+  <p class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
     <a href="{{ post.url | url }}"
       class="postlist-link">{{ post.data.title }}</a>
-  </h4>
-  <p>{{ post.data.description }}</p>
+  </p>
   </section>
   {% endfor %}
