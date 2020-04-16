@@ -8,6 +8,8 @@
   max-width: 38em;
   text-align: justify;
   word-wrap: break-word;
+  font-size: 1.1rem;
+  padding: 1em;
 }
 
 code,kbd,samp,tt {
