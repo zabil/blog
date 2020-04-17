@@ -1,19 +1,21 @@
- @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700');
+ /* @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700') */
+ @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap');
 
  body {
   background-color: white;
-  font-family: "EB Garamond", serif;
+  /* font-family: "EB Garamond", serif; */
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.6;
   margin: 0 auto;
   max-width: 38em;
   text-align: justify;
   word-wrap: break-word;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   padding: 1em;
 }
 
 code,kbd,samp,tt {
-  font-family: monospace,monospace; /* undoes the smaller-monospace of most browsers */
+  font-family: 'Source Code Pro', monospace;
   font-size: 0.9em;
   padding-left: .25em;
   padding-right: .25em;
@@ -26,7 +28,7 @@ code,kbd,samp,tt {
 h1 {
   font-variant: small-caps;
   text-align: center;
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 h2 {
@@ -47,7 +49,7 @@ h3 {
 
 
 pre {
-  font-family: monospace,monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 0.9em;
   border: 1px dotted silver;
   overflow: auto;
