@@ -4,7 +4,10 @@ templateClass: tmpl-post
 ---
 <p><a href="{{ '/' | url }}">←</a></p>
 <h1>{{ title }}</h1>
-
-{{ content | safe }}
+<div class="row">
+     <div class="nine columns">
+        {{ content | safe }}
+     </div>
+</div>
 
 <p><a href="{{ '/' | url }}">←</a></p>

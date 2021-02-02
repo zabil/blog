@@ -1,8 +1,7 @@
+<ul>
   {% for post in postslist | reverse %}
-  <section class="post">
-  <p class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+  <li>
     <a href="{{ post.url | url }}"
       class="postlist-link">{{ post.data.title }}</a>
-  </p>
-  </section>
+  </li>
   {% endfor %}
