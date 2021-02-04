@@ -1,5 +1,9 @@
 h1 {
-  margin-bottom: 5rem;
+ margin-top: 5rem;
+}
+
+h1.title {
+ margin-bottom: 0;
 }
 
 .navbar {
@@ -8,7 +12,6 @@ h1 {
   height: 6.5rem;
   background: #fff;
   z-index: 99;
-  margin-top: 2rem;
 }
 
 .navbar-list {

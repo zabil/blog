@@ -4,7 +4,16 @@ templateClass: tmpl-post
 ---
 <div class="row">
      <div class="twelve columns">
-        <h1>{{ title }}</h1>
+        <h1 class="title">{{ title }}</h1>
+     </div>
+</div>
+<div class="row">
+     <div class="twelve columns">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item"><a class="navbar-link" href="{{ '/' | url }}">Home</a></li>
+            </ul>
+        </nav>
      </div>
 </div>
 <div class="row">

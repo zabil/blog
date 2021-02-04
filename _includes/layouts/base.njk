@@ -16,18 +16,6 @@
 
 <body>
 <div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li class="navbar-item"><a class="navbar-link" href="{{ '/' | url }}">Articles</a> |&nbsp</li>
-                    <li class="navbar-item"><a class="navbar-link" href="{{ '/Projects' | url }}">Projects</a> |&nbsp</li>
-                    <li class="navbar-item"><a class="navbar-link" href="{{ '/about' | url }}">About</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-
     <main{% if templateClass %} class="{{ templateClass }}" {% endif %}>
     {{ content | safe }}
     </main>
